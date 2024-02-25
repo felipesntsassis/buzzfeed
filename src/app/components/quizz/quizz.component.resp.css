@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+	.quizz__logo img {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.quizz__container {
+		width: 90%;
+	}
+
+	.quizz__questions {
+		text-align: center;
+	}
+
+	.quizz__options {
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.quizz__options button,
+	.quizz__toolbar button {
+		width: 100%;
+	}
+
+}
